@@ -1,6 +1,8 @@
 export GO111MODULE=off
 export GOPATH = $(PWD)
 
+all: run_ass1 run_ass2 run_ass3
+
 run_ass1:
 	cd src/raft && go test -run Election
 
