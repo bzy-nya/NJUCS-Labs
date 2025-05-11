@@ -1,0 +1,7 @@
+/data
+/dist
+/.venv
+/.vscode
+/__pycache__
+*.pdf
+*.zip
